@@ -5,7 +5,6 @@
 
 body{
 	font-family: 'Allerta', sans-serif;
-	/*font-family: 'Montserrat', sans-serif;*/
 }
 
 img{
@@ -54,4 +53,44 @@ nav ul li{
 .custom-link:after{
 	content: " | ";
 	color: #fff;
+}
+
+.contenedor{
+	width: 900px;
+}
+
+.portada{
+	background: #EFEFEF;
+	display: flex;
+	justify-content: center;
+	padding: 2em 0em;
+}
+
+.portada .contenedor{
+	background-image: url('../images/night-view-of-brooklyn-bridge.jpg');
+	background-size: cover;
+	height: 500px;
+	position: relative;
+}
+
+.bienvenida{
+	width: 500px;
+	background: #efefef;
+	color: #333;
+	opacity: .8;
+	padding: 1em;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+
+.bienvenida h2{
+	font-size: 1.6em;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 1em;
+}
+
+.bienvenida p{
+	text-align: right;
+	color: grey;
 }
