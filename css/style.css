@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Allerta', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+
+img{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header{
+	background: #273B47;
+	color: #fff;
+	height: 60px;
+	font-size: 1.2em;
+	padding: 0em 1em;
+}
+
+.info{
+	display: flex;
+	align-items: center;
+}
+
+.info img{
+	margin-right: .7em;
+}
+
+nav li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+	margin-left: 10px;
+	list-style: none;
+}
+
+.custom-link:after{
+	content: " | ";
+	color: #fff;
+}
