@@ -145,3 +145,15 @@ nav ul li{
 	margin-top: 1.5em;
 	border-top: 1px solid lightgrey;
 }
+
+.footer{
+	background: #273B47;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer a{
+	color: #fff;	
+}
