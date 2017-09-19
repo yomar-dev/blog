@@ -60,7 +60,7 @@ nav ul li{
 }
 
 .contenedor{
-	width: 900px;
+	width: 960px;
 }
 
 .portada{
@@ -106,7 +106,7 @@ nav ul li{
 }
 
 .posts{
-	width: 900px;
+	width: 960px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
