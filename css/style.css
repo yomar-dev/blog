@@ -7,7 +7,11 @@ body{
 	font-family: 'Allerta', sans-serif;
 }
 
-img{
+a{
+	text-decoration: none;
+}
+
+.info img{
 	width: 32px;
 	height: 32px;
 	border-radius: 50%;
@@ -93,4 +97,51 @@ nav ul li{
 .bienvenida p{
 	text-align: right;
 	color: grey;
+}
+
+.articulos{
+	display: flex;
+	justify-content: center;
+	padding: 2em 0em;
+}
+
+.posts{
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: grey;
+}
+
+.post{
+	width: 30%;
+	margin-bottom: 3em;
+}
+
+.post img{
+	width: 100%;
+	max-height: 250px;
+}
+
+.post img:hover{
+	opacity: .8;
+}
+
+.post a.titulo-articulo{
+	font-size: 1.4em;
+	color: #273B47;
+}
+
+.post a.titulo-articulo:hover{
+	color: grey;
+}
+
+.footer-articulo{
+	display: flex;
+	justify-content: space-between;
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-size: .8em;
+	font-weight: 100;
+	margin-top: 1.5em;
+	border-top: 1px solid lightgrey;
 }
