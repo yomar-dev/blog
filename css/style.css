@@ -120,7 +120,7 @@ nav ul li{
 
 .post img{
 	width: 100%;
-	max-height: 250px;
+	height: 250px;
 }
 
 .post img:hover{
